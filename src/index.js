@@ -1,11 +1,15 @@
 import React from "react";
 import ReactDom from "react-dom";
 
+//Components
+import Header from '../src/components/header';
+
 const App = () => {
     return ( 
-    <h1> 
-        <div>Good bye wired </div>
-    </h1> 
+        <div>
+            <Header/>
+
+        </div>
     )
 }
 
