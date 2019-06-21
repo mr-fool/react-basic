@@ -2,7 +2,11 @@ import React from "react";
 import ReactDom from "react-dom";
 
 const App = () => {
-    return <h1> Good bye wired</h1>
+    return ( 
+    <h1> 
+        <div>Good bye wired </div>
+    </h1> 
+    )
 }
 
 
