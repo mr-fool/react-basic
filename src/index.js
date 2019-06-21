@@ -2,7 +2,7 @@ import React from "react";
 import ReactDom from "react-dom";
 
 const App = () => {
-    return React.createElement("h1", {className: "title"},'Good bye wired');
+    return <h1> Good bye wired</h1>
 }
 
 
