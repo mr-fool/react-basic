@@ -3,9 +3,10 @@ import React from "react";
 
 const Header = () => {
     return (
-        <div>
-            Header
-        </div>
+        <header>
+            <div>Logo</div>
+            <input type="text"/>
+        </header>
 
     ) 
 }
