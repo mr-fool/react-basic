@@ -1,14 +1,17 @@
-import React from "react";
+import React, {Component} from "react";
+import "../css/styles.css"
 
+class Header extends Component {
+    render() {
 
-const Header = () => {
-    return (
-        <header>
-            <div>Logo</div>
-            <input type="text"/>
-        </header>
+        return (
+            <header>
+                <div className="logo">Logo</div>
+                <input type="text"/>
+            </header>
 
-    ) 
+        ) 
+    }
 }
 
 export default Header;
